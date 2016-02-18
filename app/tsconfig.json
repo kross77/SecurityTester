@@ -4,6 +4,7 @@
   },
   "files": [
     "Application.ts",
-    "utils/MustacheUtils.ts"
+    "utils/MustacheUtils.ts",
+    "model/Question.ts"
   ]
 }

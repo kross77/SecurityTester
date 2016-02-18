@@ -1,1 +1,9 @@
-<h3>{{title}}</h3>
+<h3>{{question}}</h3>
+
+<form class="questionForm" action="">
+    {{#answers}}
+        <input type="radio" name="answer" >{{.}}<br>
+    {{/answers}}
+    <br/>
+    <input type="submit" value="Submit">
+</form>
