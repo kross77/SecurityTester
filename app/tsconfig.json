@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "sourceMap":  true
+  },
+  "files": [
+    "Application.ts",
+    "utils/MustacheUtils.ts"
+  ]
+}
