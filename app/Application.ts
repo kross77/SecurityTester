@@ -9,7 +9,20 @@ var answers: string[] = [
     "Dima",
     "Alexey",
     "Ales"
-]
+];
 var q:Question = new Question("What is you name?", answers);
 var tmpl: MustacheTemplate = MustacheUtils.createFromFile("app/view/QuestionView.mustache", q, el);
+
+$( tmpl.element ).click(function(e){
+    var radio: HTMLInputElement = <HTMLInputElement>e.target;
+    if( radio.name == "answer" ){
+        q.selectedAnswer = <string>radio.value;
+        //e.target
+        //<HTMLInputElement>$( tmpl.element ).find(".submit")).attr()
+    }
+});
+
+
+
+
 
