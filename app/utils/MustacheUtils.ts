@@ -1,5 +1,4 @@
-/// <reference path="../../node_modules/retyped-mustache-tsd-ambient/mustache-0.7.3.d.ts" />
-/// <reference path="../retyped/jquery.d.ts" />
+////<reference path="../../typings/tsd.d.ts" />
 class MustacheTemplate {
     template;
     model: Object;
